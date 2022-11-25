@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Poppins:ital,wght@0,300;1,400&family=Roboto+Mono&family=Zen+Antique&family=Zen+Antique+Soft&display=swap');
+@font-face {
+    font-family: 'BaiJamjuree';
+    src: url('./fonts/font1/BaiJamjuree-Bold.ttf');
+}
+
+.hover-group {
+@apply opacity-0 group-hover:opacity-100 duration-300 absolute left-0 px-3 py-2 bottom-0 right-0 z-10 flex justify-between text-xs bg-gray-600 text-white;
+}
+.btn--base {
+@apply text-white border border-solid;
+}
+.box-image {
+@apply flex gap-2 items-center;
+}
+.text__heading1 {
+    @apply text-3xl py-3 font-semibold;
+}
+.text__heading3 {
+    @apply text-lg py-2 font-semibold;
+}
+.text__base {
+    @apply text-gray-400 text-sm;
+}
